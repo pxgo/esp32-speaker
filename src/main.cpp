@@ -19,9 +19,10 @@ void setup()
     delay(1500);
   audio.setPinout(I2S_BCLK, I2S_LRC, I2S_DOUT);
   audio.setVolume(100);
-  audio.connecttohost("https://fm.lockai.net");
+  audio.connecttohost("https://bunfm.stackstore.net");
 }
 void loop()
 {
   audio.loop();
+
 }
